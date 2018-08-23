@@ -1,0 +1,150 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <getProductsResponse xmlns="http://www.hp.com/axis/services/EZPrs">
+         <transaction>
+            <queryProducts>
+               <queryProduct>
+                  <paramProduct>
+                     <params>
+                        <param>
+                           <name>PurchaseAgreement</name>
+                           <value>2B958</value>
+                        </param>
+                        <param>
+                           <name>Date</name>
+                           <value>20161213</value>
+                        </param>
+                        <param>
+                           <name>Language</name>
+                           <value>EN</value>
+                        </param>
+                        <param>
+                           <name>Currency</name>
+                           <value>USD</value>
+                        </param>
+                        <param>
+                           <name>IncoTerms</name>
+                           <value>DDP</value>
+                        </param>
+                        <param>
+                           <name>PPItemAttrList</name>
+                           <value/>
+                        </param>
+                        <param>
+                           <name>CustomerApplCode</name>
+                           <value>V</value>
+                        </param>
+                        <param>
+                           <name>PPHeaderAttrList</name>
+                           <value/>
+                        </param>
+                        <param>
+                           <name>Country</name>
+                           <value>US</value>
+                        </param>
+                        <param>
+                           <name>DiscountGeo</name>
+                           <value>FR</value>
+                        </param>
+                        <param>
+                           <name>PricingProc</name>
+                           <value>HPPA01</value>
+                        </param>
+                     </params>
+                  </paramProduct>
+                  <baseProductAttr>
+                     <attrProduct>
+                        <attrs>
+                           <attr>
+                              <name>QueryOverallTime</name>
+                              <value xsi:type="xsd:long">48</value>
+                           </attr>
+                           <attr>
+                              <name>QueryBackendTimePRS</name>
+                              <value xsi:type="xsd:long">39</value>
+                           </attr>
+                        </attrs>
+                     </attrProduct>
+                  </baseProductAttr>
+                  <variantAttr>
+                     <attrProduct>
+                        <attrs>
+                           <attr>
+                              <name>EzprsCompanyCode</name>
+                              <value xsi:type="xsd:string">PRESENT</value>
+                           </attr>
+                           <attr>
+                              <name>ProductTenantCode</name>
+                              <value xsi:type="xsd:string">PRESENT</value>
+                           </attr>
+                           <attr>
+                              <name>PurchaseAgreementTenantCode</name>
+                              <value xsi:type="xsd:string">PRESENT</value>
+                           </attr>
+                           <attr>
+                              <name>NetPrice</name>
+                              <value xsi:type="xsd:string">PRESENT</value>
+                           </attr>
+                           <attr>
+                              <name>DealTenantCode</name>
+                              <value xsi:type="xsd:string">PRESENT</value>
+                           </attr>
+                           <attr>
+                              <name>ListPrice</name>
+                              <value xsi:type="xsd:string">PRESENT</value>
+                           </attr>
+                        </attrs>
+                     </attrProduct>
+                  </variantAttr>
+                  <keys>
+                     <keyProducts>
+                        <keyProduct>
+                           <productId>103825-002</productId>
+                           <baseProductID>103825-002</baseProductID>
+                           <qty>1</qty>
+                           <attrProduct>
+                              <attrs>
+                                 <attr>
+                                    <name>EzprsCompanyCode</name>
+                                    <value xsi:type="xsd:string">HPE</value>
+                                 </attr>
+                                 <attr>
+                                    <name>ProductTenantCode</name>
+                                    <value xsi:type="xsd:string">HPE</value>
+                                 </attr>
+                                 <attr>
+                                    <name>PurchaseAgreementTenantCode</name>
+                                    <value xsi:type="xsd:string">HPE</value>
+                                 </attr>
+                                 <attr>
+                                    <name>NetPrice</name>
+                                    <value xsi:type="xsd:decimal">1593.90</value>
+                                 </attr>
+                                 <attr>
+                                    <name>ProductTimingBackendExtractPRS</name>
+                                    <value xsi:type="xsd:long">39</value>
+                                 </attr>
+                                 <attr>
+                                    <name>DealTenantCode</name>
+                                    <value xsi:type="xsd:string"/>
+                                 </attr>
+                                 <attr>
+                                    <name>ListPrice</name>
+                                    <value xsi:type="xsd:decimal">2415.00</value>
+                                 </attr>
+                              </attrs>
+                           </attrProduct>
+                        </keyProduct>
+                     </keyProducts>
+                  </keys>
+               </queryProduct>
+            </queryProducts>
+            <overallTransactionTime>57</overallTransactionTime>
+            <serverTransactionTime>48</serverTransactionTime>
+            <clientName>eclipse</clientName>
+            <clientId>ezprs4eclipse</clientId>
+            <transaction_version>8_0A</transaction_version>
+         </transaction>
+      </getProductsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
